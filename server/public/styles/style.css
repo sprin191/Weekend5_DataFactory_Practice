@@ -1,0 +1,64 @@
+@font-face {
+  font-family: 'Viga';
+  src: url("/vendors/fonts/fonts1/Viga/Viga-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'Comfortaa';
+  src: url("/vendors/fonts/fonts1/Comfortaa/Comfortaa-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'Patua One';
+  src: url("/vendors/fonts/Patua_One/PatuaOne-Regular.ttf");
+}
+
+.pageTitle, .mainContainer, .animals {
+  text-align: center;
+}
+
+.jumbotron {
+  background-image: url(/images/4704083.png);
+  color: #FFFFCC;
+}
+
+.header {
+  font-family: 'Viga';
+}
+
+body {
+  background-color: #FFFFCC;
+}
+
+.pet a, body {
+  color: #6B4226;
+}
+
+.pet a {
+  font-size: 20px;
+}
+
+.petInfo, .pageTitle, button, .footer, .favsDisplay, .pet a {
+  font-family: 'Patua One';
+}
+
+.petPic {
+  max-height: 300px;
+  width: auto;
+}
+
+.nav>li>a:hover,
+.nav>li>a:focus {
+    text-decoration: none;
+    background-image: url(/images/baby_blue_seamless_paw_prints_wallpaper.gif);
+}
+
+button, .favBtn {
+  background-image: url(/images/baby_blue_seamless_paw_prints_wallpaper.gif);
+  color: #6B4226;
+  border: none;
+}
+
+img, button, .favBtn {
+  border-radius: 5px;
+}

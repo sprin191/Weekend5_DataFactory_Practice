@@ -1,0 +1,15 @@
+<div class="pageTitle">
+<h1 class="title">Favorites</h1>
+</div>
+
+<div class="row" ng-repeat="favorite in favorites">
+    <div class="col-md-6 col-md-offset-3">
+      <div class="mainContainer">
+        <h2 class="petInfo">{{favorite.name}}</h2>
+        <h6 class="petInfo">ID: {{favorite.petID}}</h6>
+        <img class="petPic" ng-src="{{favorite.image}}"/>
+        <h4 class="petInfo">{{favorite.city}}, {{favorite.state}}</h4>
+      </div>
+        <p>{{favorite.description}}...</p>
+      </div>
+    </div>
